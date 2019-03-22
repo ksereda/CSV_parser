@@ -4,9 +4,8 @@ public class SchedulerTaskImpl implements CsvService {
 
     private static final Logger LOGGER = LogManager.getLogger(SchedulerTaskBean.class);
 
-    private static final String JEBBIT_FTP_FOLDER = "/home/prog5/Documents/test/";
-    private static final String SUCCESS_FTP_FOLDER = "/home/prog5/Documents/test/success/";
-    private static final String ERROR_FTP_FOLDER = "/home/prog5/Documents/test/error/";
+    private static final String JEBBIT_FTP_FOLDER = "/home/ftp/";
+    private static final String SUCCESS_FTP_FOLDER = "/home/ftp/success/";
 
     private CsvService csvService;
 

@@ -1,35 +1,8 @@
-# CsvParser: This is Java CSV file Parser + using Postgresql database and Hibernate to write data to the database
+# Some example CsvParser with Super CSV library
 
-**CsvParser** is a Java parser for working with CSV file. 
-Data from the document is stored in the Postgresql database using Hibernate.
-Representation of parsing types: local document (load a Document from a File)
+A small part of the CSV parser using the library Google-Guice and Java 1.7 version.
 
+There is upload main csv file on ftp. After that, the file is parsed into the database and new csv files are immediately created 
+with additional information on the student from the current database based on the student's ID, which is specified in the main
+file that was uploaded to the FTP.
 
-
-## How does it work
-
-- Parse csv file:
-
- * CsvParser csvParser = new CsvParser();
- * csvParser.parse();
- 
-  
-         
-
-## Input
-
-- Load a Document from a File
-1. In CsvParser class:
-private String filePath = "/home/prog5/Documents/csv_example.csv";
-
-
-
-# Methods:
-
-1. parse() - parse data from document
-
-   
-
-## Getting started:
-1. Read the documentation
-2. Enjoy !

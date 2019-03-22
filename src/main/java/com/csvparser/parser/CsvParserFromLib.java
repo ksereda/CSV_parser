@@ -5,8 +5,8 @@ public class CsvParserFromLib {
 
     private static final Logger LOGGER = LogManager.getLogger(CsvParserFromLib.class);
 
-    private static final String NEW_FILE_FTP_FOLDER = "/home/prog5/Documents/test/files/";
-    private static final String NULL_COLLEGE_ID_FOLDER = "/home/prog5/Documents/test/files/nullIdCollege/";
+    private static final String NEW_FILE_FTP_FOLDER = "/home/ftp/files";
+    private static final String NULL_COLLEGE_ID_FOLDER = "/home/ftp/files/nullIdCollege/";
 
     private final UserDao userDao;
 
