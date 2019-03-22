@@ -19,7 +19,7 @@
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
 
 
-        <mapping class="com.csvparser.entity.CsvStructure"/>
+        <mapping class="com.csvparser.entity.CsvStructureEntity"/>
     </session-factory>
 
 </hibernate-configuration>

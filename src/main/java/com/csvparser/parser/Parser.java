@@ -1,12 +1,7 @@
 package com.csvparser.parser;
 
-import com.csvparser.entity.CsvStructure;
+public class Parser {
 
-import java.io.IOException;
-import java.text.ParseException;
-import java.util.List;
+    List<CsvStructureEntity> parse(File file);
 
-public interface Parser {
-
-    List<CsvStructure> parse() throws IOException, ParseException;
 }
