@@ -1,4 +1,4 @@
-# Some example CsvParser with Super CSV library
+# Some examples csv parser
 
 ### `csvparser` package
 
