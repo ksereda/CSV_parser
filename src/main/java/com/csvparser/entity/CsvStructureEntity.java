@@ -1,5 +1,7 @@
 package com.csvparser.entity;
 
+import jdk.nashorn.internal.objects.annotations.Getter;
+
 @Getter
 @Setter
 @Entity
